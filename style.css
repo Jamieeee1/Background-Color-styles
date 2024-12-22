@@ -59,7 +59,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 25dvw 75dvh;
+    width: 95dvw;
+    grid-template-columns: 1fr 3fr;
 }
 
 .nav__content {
@@ -70,6 +71,35 @@ body {
     width: 25dvw;
     /* float: left; */
     margin-right: 1em;
+    border-radius: 1rem;
+}
+
+.nav__content__header {
+    text-align: center;
+    padding: 0;
+}
+
+.nav__content ul {
+    list-style: none;
+    margin-left: 0.1rem;
+}
+
+.nav__content ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    color: black;
+}
+
+/* .content {
+    padding: 1rem;
+    position: sticky;
+    top: 25%;
+} */
+
+p {
+    text-align: justify;
+    line-height: 2rem;
 }
 
 /* .seperator {
