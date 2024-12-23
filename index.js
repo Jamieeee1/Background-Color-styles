@@ -22,11 +22,17 @@ ScrollReveal().reveal(".nav__content__header", {
     delay: 1500
 })
 
-ScrollReveal().reveal("nav__content__list",{
-    origin: 'bottom',
-    
-    // distance: '80px',
-    duration: 1000,
+ScrollReveal().reveal(".nav__content__list",{
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
     delay: 2000
+})
+
+ScrollReveal().reveal(".content", {
+    origin: 'bottom',
+    // distance: '80px',
+    duration: 2000,
+    delay: 2500
 })
 

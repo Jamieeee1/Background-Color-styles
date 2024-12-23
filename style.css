@@ -2,6 +2,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     box-sizing: border-box;
+    background-color: #f0f0f0;
 }
 
 /* HEADER */
@@ -130,6 +131,14 @@ p {
     text-align: justify;
     line-height: 2rem;
 }
+/* 
+.mechanical {
+    background-image:url('engineer.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+} */
 
 /* .seperator {
     height: 20dvh;
